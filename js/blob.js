@@ -2,8 +2,6 @@ class Blob {
 
     constructor(el) {
 
-        console.log("OKK");
-
         this.dom = {};
         this.dom.el = el;
 
