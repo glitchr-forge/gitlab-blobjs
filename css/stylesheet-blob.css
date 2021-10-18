@@ -1,0 +1,143 @@
+a { text-decoration: none; }
+ul,li {padding:0;}
+:root {
+
+	--primary:#1E1E1E;
+	--primary-background: #EFEFEF;
+
+	--secondary:#FFF;
+	--secondary-background: #CCC;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik/static/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: bold;
+    src: url("../fonts/Rubik/static/Rubik-Bold.ttf");
+}
+
+.blob {	
+
+	font-family: "Rubik", sans-serif;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	width:475px;
+	max-width: 100%;
+	
+	display:flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: flex-start;
+	
+	cursor: pointer;
+}
+
+.blob { 
+	margin: 0 2em 0 0; }
+.blob:first-child { margin-top:4em ! important; }
+.blob:nth-of-type(even) { margin:0 0 0 auto;
+	margin-top: -15em !important;
+}
+
+.blob__title a { color: white; }
+.blob__clippath,
+.blob__deco,
+.blob__img {
+	transform-origin: 50% 50%;
+}
+
+.blob__meta {
+	position: relative;
+	z-index:2;
+	width:inherit;
+	top: 0em;
+	height: 10em;
+	text-align: left;
+}
+
+.blob__number {
+	color: var(--secondary);
+	position: relative;
+	top: 0;
+	width: 100%;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+}
+
+.blob__svg
+{
+	position: relative;
+	width:inherit;
+	margin-top:-12em;
+	margin-left:2em;
+}
+
+.blob__specimen {
+	font-size: 5em;
+	font-weight: 500;
+	line-height: 0.9;
+	vertical-align: text-bottom;
+	letter-spacing: -0.025em;
+}
+
+.blob__reference {
+	font-size: 1.25em;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+}
+
+.blob__title {
+	font-size: 23pt;
+	font-weight: 700;
+	width: 100%;
+	margin: 1em 0 0 0;
+	text-align: center;
+	letter-spacing: 0.125em;
+	color: var(--secondary);
+	text-shadow: var(--primary)  0px 0px 3px;
+	
+}
+
+.blob__subtitle {
+	
+	font-weight: 400;
+	font-size: 20pt;
+	margin: 0.5em 0 0;
+	text-align: center;
+	letter-spacing: 0.15em;
+	opacity: 0;
+	
+	color: var(--secondary);
+	text-shadow: var(--primary)  0px 0px 3px;
+}
+
+.blob__subtitle a {
+	color: var(--secondary);
+	text-shadow: var(--primary)  0px 0px 3px;
+}
+
+.blob__subtitle a:hover,
+.blob__subtitle a:focus {
+	color: var(--secondary);
+	text-decoration: underline;
+}
+
+.blob .blob__deco { fill: var(--secondary); }
+
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}

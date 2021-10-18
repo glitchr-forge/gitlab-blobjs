@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Social Buttons for Bootstrap</title>
+
+  <link rel="stylesheet" href="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.css">
+  <link rel="stylesheet" href="https://assets.glitchr.io/fonts/FontAwesome/5.15.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,600" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/stylesheet-gitlab.css">
+  <link rel="stylesheet" href="css/stylesheet-blob.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+  <script src="https://assets.glitchr.io/jquery/jquery-3.5.1.min.js"></script>
+  <script src="https://assets.glitchr.io/jquery/jquery-ui-1.12.1.min.js"></script>
+  <script src="https://assets.glitchr.io/bootstrap/5.0.0-b1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- List of icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://assets.glitchr.io/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://assets.glitchr.io/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://assets.glitchr.io/ico/favicon-16x16.png">
+  <link rel="manifest" href="https://assets.glitchr.io/ico/site.webmanifest">
+  <link rel="mask-icon" href="https://assets.glitchr.io/ico/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="https://assets.glitchr.io/ico/favicon.ico">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="https://assets.glitchr.io/ico/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155076989-4"></script>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+
+    <div class="d-flex ">
+      <div id="shape1" class="blob" data-shape="blob6" data-image="img/1.png" data-href="#item2" data-animation-path-duration="800" data-animation-path-easing="easeInOutCubic" data-path-elasticity="300" data-path-scaleX="0.8" data-path-scaleY="1.1" data-path-translateX="0" data-path-translateY="30" data-path-rotate="5" data-animation-image-duration="800" data-animation-image-easing="easeInOutQuart" data-image-elasticity="300" data-image-scaleX="1.2" data-image-scaleY="1.2" data-image-translateX="-20" data-image-translateY="-45" data-image-rotate="-5" data-animation-deco-duration="1300" data-animation-deco-easing="easeOutQuad" data-deco-elasticity="300" data-deco-scaleX="0.8" data-deco-scaleY="0.9" data-deco-translateX="-5" data-deco-translateY="-5" data-deco-rotate="2">
+        <div class="blob__meta">
+          <div class="blob__number">
+            <span class="blob__specimen">21</span>
+            <span class="blob__reference">BX3</span>
+          </div>
+          <h2 class="blob__title"><a href="#item1">Lorem Ipsum</a></h2>
+          <h3 class="blob__subtitle"><a href="#kelly">dolor sit amet</a></h3>
+        </div>
+      </div>
+
+      <div>
+        <h1>Organic Shape Animations</h1>
+        <p>
+          made with AnimeJS and JQuery
+        </p>
+        <a href="https://gitlab.glitchr.io/public-repository/javascript/blobjs" class="btn btn-outline btn-lg"><i
+            style=" vertical-align: middle;" class="fa-fw fab fa-2x fa-gitlab"></i> View on GitLab</a>
+        <a href="https://gitlab.glitchr.io/public-repository/javascript/blobjs/-/archive/master/blobjs-master.zip" class="btn btn-outline btn-lg"><i
+            style=" vertical-align: middle;" class="fa-fw fas fa-2x fa-download"></i> Download</a>
+        <ul class="jumbotron-links">
+        </ul>
+      </div>
+    </div></div>
+    
+    <div class="bottom">
+      <p>Original idea by <a href="https://tympanus.net/Development/OrganicShapeAnimations/">@Tympanus</a> revisited by <a
+          href="https://twitter.com/kzl____">@kzl____</a></p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+    <div class="how-to" id="how-to">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-auto">
+            <hr>
+            <h2><a href="#how-to"><i style="font-size:32pt" class="fa-fw fas fa-parachute-box"></i></a> How to get them
+              ?</h2>
+            <ol>
+              <li>
+                Include JQuery and AnimeJS
+                <p>
+                  If you haven't done that already, include the latest
+                  <a href="https://jquery.com/">JQuery</a>
+                  and <a href="https://animejs.com/">AnimeJS</a> in your project.
+                </p>
+              </li>
+              <li>
+                Include the CSS
+                <p>
+                  To enable the socials buttons, just include the
+                  <code>stylesheet-socials.css</code> file into your project.
+                </p>
+              </li>
+              <li>
+                Add some new shapes!
+                <p>
+                  Start using BlobJS library and go to js/blob.js. You will find some BlobShape() function call.
+                  These are meant to add shapes in the list of available shapes including an shape ID. 
+
+                  You will then be able to use it when calling a .blob class
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <footer>
+    <ul class="links">
+      <li><a href="https://gitlab.glitchr.io"><i class="fab fa-gitlab"></i> GitLab</a></li>
+      <li><a href="https://twitter.com/KZL____"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li><a href="https://www.buymeacoffee.com/kzl0"><i class="fas fa-coffee"></i> Coffee</a></li>
+    </ul>
+  </footer>
+
+  <div class="gitlab-corner-wrapper"><a href="https://gitlab.glitchr.io" class="gitlab-corner"
+      aria-label="View source on GitLab">
+      <svg id="logo_art" data-name="logo art" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 559">
+        <g id="g44">
+          <path id="path46" class="cls-1"
+            d="M461.17,301.83l-18.91-58.12L404.84,128.43a6.47,6.47,0,0,0-12.27,0L355.15,243.64H230.82L193.4,128.43a6.46,6.46,0,0,0-12.26,0L143.78,243.64l-18.91,58.19a12.88,12.88,0,0,0,4.66,14.39L293,435,456.44,316.22a12.9,12.9,0,0,0,4.73-14.39" />
+        </g>
+        <g id="g48">
+          <path id="path50" class="cls-2" d="M293,434.91h0l62.16-191.28H230.87L293,434.91Z" />
+        </g>
+        <g id="g56">
+          <path id="path58" class="cls-1" d="M293,434.91,230.82,243.63h-87L293,434.91Z" />
+        </g>
+        <g id="g64">
+          <path id="path66" class="cls-3"
+            d="M143.75,243.69h0l-18.91,58.12a12.88,12.88,0,0,0,4.66,14.39L293,435,143.75,243.69Z" />
+        </g>
+        <g id="g72">
+          <path id="path74" class="cls-2" d="M143.78,243.69h87.11L193.4,128.49a6.47,6.47,0,0,0-12.27,0l-37.35,115.2Z" />
+        </g>
+        <g id="g76">
+          <path id="path78" class="cls-1" d="M293,434.91l62.16-191.28H442.3L293,434.91Z" />
+        </g>
+        <g id="g80">
+          <path id="path82" class="cls-3"
+            d="M442.24,243.69h0l18.91,58.12a12.85,12.85,0,0,1-4.66,14.39L293,434.91l149.2-191.22Z" />
+        </g>
+        <g id="g84">
+          <path id="path86" class="cls-2" d="M442.28,243.69h-87.1l37.42-115.2a6.46,6.46,0,0,1,12.26,0l37.42,115.2Z" />
+        </g>
+      </svg>
+    </a></div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+		<script src="js/anime.min.js"></script>
+		<script src="js/breakpoints.js"></script>
+		<script src="js/blob.js"></script>
+
+</body>
+
+</html>
