@@ -34,11 +34,11 @@ a:hover { text-decoration: underline; }
     text-align: center;
     border-radius: 0;
     padding-bottom: 80px;
-    background-image: -webkit-linear-gradient(left, #720e9e 0, #dd4b39 100%);
-    background-image: -o-linear-gradient(left, #720e9e 0, #dd4b39 100%);
-    background-image: linear-gradient(to right, #720e9e 0, #dd4b39 100%);
+    background-image: -webkit-linear-gradient(left, #0E346F 0, #7C9AE2 100%);
+    background-image: -o-linear-gradient(left, #0E346F 0, #7C9AE2 100%);
+    background-image: linear-gradient(to right, #0E346F 0, #7C9AE2 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff720e9e', endColorstr='#ffdd4b39', GradientType=1)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0E346F', endColorstr='#ff7C9AE2', GradientType=1)
 }
 
 .jumbotron h1 {
@@ -119,7 +119,7 @@ code {
 
 .btn-outline:hover,
 .btn-outline:active {
-    color: #720e9e;
+    color: #0E346F;
     background-color: #fff;
     border-color: #fff
 }
@@ -154,11 +154,11 @@ footer {
     text-align: center;
     opacity: .8;
     padding: 50px;
-    background-image: -webkit-linear-gradient(left, #dd4b39 0, #720e9e 100%);
-    background-image: -o-linear-gradient(left, #dd4b39 0, #720e9e 100%);
-    background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+    background-image: -webkit-linear-gradient(left, #7C9AE2 0, #0E346F 100%);
+    background-image: -o-linear-gradient(left, #7C9AE2 0, #0E346F 100%);
+    background-image: linear-gradient(to right, #7C9AE2 0, #0E346F 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ff720e9e', GradientType=1)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7C9AE2', endColorstr='#ff0E346F', GradientType=1)
 }
 
 footer a {
