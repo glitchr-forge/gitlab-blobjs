@@ -304,3 +304,13 @@ pre code {
 {
 	margin-bottom:5px;
 }
+
+.jumbotron .header
+{
+    display:flex;
+    flex-direction: row;
+}
+.blob {
+    margin:0;
+    margin-left:5em;
+}

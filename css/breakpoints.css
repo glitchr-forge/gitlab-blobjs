@@ -24,6 +24,7 @@ body:before {
 		content: "tablet";
 	}
 
+	.jumbotron .header { flex-direction:column; }
 }
 
 /*
@@ -34,4 +35,5 @@ body:before {
 		content: "mobile";
 	}
 
+	.jumbotron .header { flex-direction:column; }
 }
